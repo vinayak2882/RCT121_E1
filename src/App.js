@@ -20,7 +20,7 @@ const fetchdata = async ({page,sortPrice})=>{
   setLoading(true);
   axios({
     method:'get',
-    url:"http://localhost:3000/candidates",
+    url:"http://localhost:8080/candidates",
     params:{
       _page:page,
       _limit:5,
